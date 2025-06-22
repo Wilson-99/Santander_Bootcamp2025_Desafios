@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprendendo HTML5</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="inicio">Estudo: Explorando HTML5</h1>
+      <hr />
+      <p>
+        Uma jornada pelo universo das tags semânticas, citações, multimédia e
+        muito mais.
+      </p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#introducao">Introdução</a></li>
+        <li><a href="#semantica">Tags Semânticas</a></li>
+        <li><a href="#citacoes">Citações</a></li>
+        <li><a href="#multimedia">Multimédia</a></li>
+        <li><a href="#codigo">Exemplos de Código</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="introducao">
+        <h2>Introdução ao HTML5</h2>
+        <p>
+          O <strong>HTML5</strong> é a versão mais recente da linguagem de
+          marcação padrão da web. Com ele, podemos estruturar conteúdos de forma
+          mais clara, acessível e organizada.
+        </p>
+      </section>
+
+      <section id="semantica">
+        <h2>Importância das Tags Semânticas</h2>
+        <article>
+          <h3>O que são?</h3>
+          <p>
+            Tags semânticas descrevem o significado do conteúdo que envolvem.
+            Por exemplo:
+          </p>
+          <ul>
+            <li><code>&lt;header&gt;</code> Para o cabeçalho</li>
+            <li><code>&lt;section&gt;</code> Para seções do conteúdo</li>
+            <li><code>&lt;footer&gt;</code> Para rodapé</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Por que usar?</h3>
+          <p>Usar HTML semântico melhora:</p>
+          <ol>
+            <li>Acessibilidade (leitores de tela)</li>
+            <li>SEO (otimização em mecanismos de busca)</li>
+            <li>Organização e manutenção do código</li>
+          </ol>
+        </article>
+      </section>
+
+      <section id="citacoes">
+        <h2>Trabalhando com Citações</h2>
+        <blockquote cite="https://www.w3.org/TR/html52/">
+          O HTML é a linguagem de marcação padrão para documentos destinados a
+          serem exibidos em um navegador da Web.
+        </blockquote>
+        <p>
+          Segundo Tim Berners-Lee, criador da web:
+          <q>A Web é mais uma invenção social do que técnica.</q>
+        </p>
+      </section>
+
+      <section id="multimedia">
+        <h2>Elementos Multimédia</h2>
+        <article>
+          <h3>Imagem</h3>
+          <img
+            src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg"
+            alt="Exemplo de imagem ilustrativa"
+            width="400"
+          />
+        </article>
+
+        <article>
+          <h3>Vídeo</h3>
+          <video width="400" controls>
+            <source
+              src="https://www.w3schools.com/html/mov_bbb.mp4"
+              type="video/mp4"
+            />
+            Seu navegador não suporta vídeo.
+          </video>
+        </article>
+
+        <article>
+          <h3>Áudio</h3>
+          <audio controls>
+            <source
+              src="https://www.w3schools.com/html/horse.mp3"
+              type="audio/mpeg"
+            />
+            Seu navegador não suporta áudio.
+          </audio>
+        </article>
+      </section>
+
+      <section id="codigo">
+        <h2>Exemplo de Código HTML</h2>
+        <pre><code>&lt;section&gt;
+  &lt;h2&gt;Título da Seção&lt;/h2&gt;
+  &lt;p&gt;Este é um parágrafo dentro da seção.&lt;/p&gt;
+&lt;/section&gt;
+      </code></pre>
+      </section>
+
+      <aside>
+        <h3>Dica rápida</h3>
+        <p>
+          Use sempre <code>&lt;alt&gt;</code> em imagens para acessibilidade!
+        </p>
+      </aside>
+
+      <section id="curiosidades">
+        <h2>Curiosidades</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Elemento</th>
+              <th>Função</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>&lt;article&gt;</td>
+              <td>Representa um conteúdo independente</td>
+            </tr>
+            <tr>
+              <td>&lt;aside&gt;</td>
+              <td>Conteúdo complementar, como barras laterais</td>
+            </tr>
+            <tr>
+              <td>&lt;figure&gt;</td>
+              <td>Conteúdo visual com legenda</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <section id="localizacao">
+      <h2>Localização</h2>
+      <p>Vê abaixo onde estou localizado:</p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11623.032678811656!2d-122.091213223734!3d37.419340573646956!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba02425dad8f%3A0x6c296c66619367e0!2sGoogleplex!5e0!3m2!1spt-BR!2sus!4v1750601788421!5m2!1spt-BR!2sus"
+        width="450"
+        height="400"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <small><a href="#inicio"> Voltar</a></small>
+    <footer>
+      <p>&copy; 2025 Website. Criado por Wilson Justino</p>
+      <p>
+        Referência:
+        <a
+          href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+          target="_blank"
+          >MDN Web Docs</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
